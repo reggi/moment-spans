@@ -1,0 +1,16 @@
+{
+  "name": "moment-spans",
+  "version": "0.0.0",
+  "description": "A span is a period between two dates where subsciptions take place. The subscribers between these dates are labeled within a specific span number. The initial span number starts on the month that subscriptions started. A subscriber can only be in one span.",
+  "main": "index.js",
+  "author": "Thomas Reggi",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.6.0",
+    "underscore": "^1.6.0"
+  },
+  "devDependencies": {
+    "dotty": "0.0.2",
+    "minimist": "^0.1.0"
+  }
+}
