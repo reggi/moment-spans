@@ -1,5 +1,9 @@
 # Moment Spans
 
+```
+npm install moment-spans --save
+```
+
 A span is a period between two dates where subsciptions take place. The subscribers between these dates are labeled within a specific span number. The initial span number starts on the month that subscriptions started. A subscriber can only be in one span.
 
 ## Arguments
