@@ -1,0 +1,134 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'publish', '--force' ]
+2 info using npm@1.4.6
+3 info using node@v0.11.12
+4 warn using --force I sure hope you know what you are doing.
+5 verbose publish [ '.' ]
+6 verbose cache add [ '.', null ]
+7 verbose cache add name=undefined spec="." args=[".",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: '.',
+8 verbose parsed url   path: '.',
+8 verbose parsed url   href: '.' }
+9 silly lockFile 3a52ce78- .
+10 verbose lock . /Users/thomas/.npm/3a52ce78-.lock
+11 verbose tar pack [ '/var/folders/jt/043tcrbs3m386w8kxjlf3jz00000gn/T/npm-35318-e2BOOGG2/1400527043221-0.7271450401749462/tmp.tgz',
+11 verbose tar pack   '.' ]
+12 verbose tarball /var/folders/jt/043tcrbs3m386w8kxjlf3jz00000gn/T/npm-35318-e2BOOGG2/1400527043221-0.7271450401749462/tmp.tgz
+13 verbose folder .
+14 info prepublish moment-spans@0.0.2
+15 silly lockFile 1f1177db-tar tar://.
+16 verbose lock tar://. /Users/thomas/.npm/1f1177db-tar.lock
+17 silly lockFile aa48aa9c-43221-0-7271450401749462-tmp-tgz tar:///var/folders/jt/043tcrbs3m386w8kxjlf3jz00000gn/T/npm-35318-e2BOOGG2/1400527043221-0.7271450401749462/tmp.tgz
+18 verbose lock tar:///var/folders/jt/043tcrbs3m386w8kxjlf3jz00000gn/T/npm-35318-e2BOOGG2/1400527043221-0.7271450401749462/tmp.tgz /Users/thomas/.npm/aa48aa9c-43221-0-7271450401749462-tmp-tgz.lock
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 1f1177db-tar tar://.
+21 silly lockFile aa48aa9c-43221-0-7271450401749462-tmp-tgz tar:///var/folders/jt/043tcrbs3m386w8kxjlf3jz00000gn/T/npm-35318-e2BOOGG2/1400527043221-0.7271450401749462/tmp.tgz
+22 silly lockFile aa48aa9c-43221-0-7271450401749462-tmp-tgz tar:///var/folders/jt/043tcrbs3m386w8kxjlf3jz00000gn/T/npm-35318-e2BOOGG2/1400527043221-0.7271450401749462/tmp.tgz
+23 verbose tar unpack /var/folders/jt/043tcrbs3m386w8kxjlf3jz00000gn/T/npm-35318-e2BOOGG2/1400527043221-0.7271450401749462/tmp.tgz
+24 silly lockFile ae7556b0-43221-0-7271450401749462-package tar:///var/folders/jt/043tcrbs3m386w8kxjlf3jz00000gn/T/npm-35318-e2BOOGG2/1400527043221-0.7271450401749462/package
+25 verbose lock tar:///var/folders/jt/043tcrbs3m386w8kxjlf3jz00000gn/T/npm-35318-e2BOOGG2/1400527043221-0.7271450401749462/package /Users/thomas/.npm/ae7556b0-43221-0-7271450401749462-package.lock
+26 silly lockFile aa48aa9c-43221-0-7271450401749462-tmp-tgz tar:///var/folders/jt/043tcrbs3m386w8kxjlf3jz00000gn/T/npm-35318-e2BOOGG2/1400527043221-0.7271450401749462/tmp.tgz
+27 verbose lock tar:///var/folders/jt/043tcrbs3m386w8kxjlf3jz00000gn/T/npm-35318-e2BOOGG2/1400527043221-0.7271450401749462/tmp.tgz /Users/thomas/.npm/aa48aa9c-43221-0-7271450401749462-tmp-tgz.lock
+28 silly gunzTarPerm modes [ '755', '644' ]
+29 silly gunzTarPerm extractEntry package.json
+30 silly gunzTarPerm extractEntry .npmignore
+31 silly gunzTarPerm extractEntry bin.js
+32 silly gunzTarPerm extractEntry index.js
+33 silly gunzTarPerm extractEntry readme.md
+34 silly lockFile ae7556b0-43221-0-7271450401749462-package tar:///var/folders/jt/043tcrbs3m386w8kxjlf3jz00000gn/T/npm-35318-e2BOOGG2/1400527043221-0.7271450401749462/package
+35 silly lockFile ae7556b0-43221-0-7271450401749462-package tar:///var/folders/jt/043tcrbs3m386w8kxjlf3jz00000gn/T/npm-35318-e2BOOGG2/1400527043221-0.7271450401749462/package
+36 silly lockFile aa48aa9c-43221-0-7271450401749462-tmp-tgz tar:///var/folders/jt/043tcrbs3m386w8kxjlf3jz00000gn/T/npm-35318-e2BOOGG2/1400527043221-0.7271450401749462/tmp.tgz
+37 silly lockFile aa48aa9c-43221-0-7271450401749462-tmp-tgz tar:///var/folders/jt/043tcrbs3m386w8kxjlf3jz00000gn/T/npm-35318-e2BOOGG2/1400527043221-0.7271450401749462/tmp.tgz
+38 verbose tar pack [ '/Users/thomas/.npm/moment-spans/0.0.2/package.tgz',
+38 verbose tar pack   '/var/folders/jt/043tcrbs3m386w8kxjlf3jz00000gn/T/npm-35318-e2BOOGG2/1400527043221-0.7271450401749462/package' ]
+39 verbose tarball /Users/thomas/.npm/moment-spans/0.0.2/package.tgz
+40 verbose folder /var/folders/jt/043tcrbs3m386w8kxjlf3jz00000gn/T/npm-35318-e2BOOGG2/1400527043221-0.7271450401749462/package
+41 silly lockFile ae7556b0-43221-0-7271450401749462-package tar:///var/folders/jt/043tcrbs3m386w8kxjlf3jz00000gn/T/npm-35318-e2BOOGG2/1400527043221-0.7271450401749462/package
+42 verbose lock tar:///var/folders/jt/043tcrbs3m386w8kxjlf3jz00000gn/T/npm-35318-e2BOOGG2/1400527043221-0.7271450401749462/package /Users/thomas/.npm/ae7556b0-43221-0-7271450401749462-package.lock
+43 silly lockFile 9d9aaafc-m-moment-spans-0-0-2-package-tgz tar:///Users/thomas/.npm/moment-spans/0.0.2/package.tgz
+44 verbose lock tar:///Users/thomas/.npm/moment-spans/0.0.2/package.tgz /Users/thomas/.npm/9d9aaafc-m-moment-spans-0-0-2-package-tgz.lock
+45 silly lockFile ae7556b0-43221-0-7271450401749462-package tar:///var/folders/jt/043tcrbs3m386w8kxjlf3jz00000gn/T/npm-35318-e2BOOGG2/1400527043221-0.7271450401749462/package
+46 silly lockFile ae7556b0-43221-0-7271450401749462-package tar:///var/folders/jt/043tcrbs3m386w8kxjlf3jz00000gn/T/npm-35318-e2BOOGG2/1400527043221-0.7271450401749462/package
+47 silly lockFile 9d9aaafc-m-moment-spans-0-0-2-package-tgz tar:///Users/thomas/.npm/moment-spans/0.0.2/package.tgz
+48 silly lockFile 9d9aaafc-m-moment-spans-0-0-2-package-tgz tar:///Users/thomas/.npm/moment-spans/0.0.2/package.tgz
+49 silly lockFile b0a7194b-s-npm-moment-spans-0-0-2-package /Users/thomas/.npm/moment-spans/0.0.2/package
+50 verbose lock /Users/thomas/.npm/moment-spans/0.0.2/package /Users/thomas/.npm/b0a7194b-s-npm-moment-spans-0-0-2-package.lock
+51 silly lockFile b0a7194b-s-npm-moment-spans-0-0-2-package /Users/thomas/.npm/moment-spans/0.0.2/package
+52 silly lockFile b0a7194b-s-npm-moment-spans-0-0-2-package /Users/thomas/.npm/moment-spans/0.0.2/package
+53 verbose tar unpack /Users/thomas/.npm/moment-spans/0.0.2/package.tgz
+54 silly lockFile a51b4faa-s-npm-moment-spans-0-0-2-package tar:///Users/thomas/.npm/moment-spans/0.0.2/package
+55 verbose lock tar:///Users/thomas/.npm/moment-spans/0.0.2/package /Users/thomas/.npm/a51b4faa-s-npm-moment-spans-0-0-2-package.lock
+56 silly lockFile 9d9aaafc-m-moment-spans-0-0-2-package-tgz tar:///Users/thomas/.npm/moment-spans/0.0.2/package.tgz
+57 verbose lock tar:///Users/thomas/.npm/moment-spans/0.0.2/package.tgz /Users/thomas/.npm/9d9aaafc-m-moment-spans-0-0-2-package-tgz.lock
+58 silly gunzTarPerm modes [ '755', '644' ]
+59 silly gunzTarPerm extractEntry package.json
+60 silly gunzTarPerm extractEntry .npmignore
+61 silly gunzTarPerm extractEntry bin.js
+62 silly gunzTarPerm extractEntry index.js
+63 silly gunzTarPerm extractEntry readme.md
+64 silly lockFile a51b4faa-s-npm-moment-spans-0-0-2-package tar:///Users/thomas/.npm/moment-spans/0.0.2/package
+65 silly lockFile a51b4faa-s-npm-moment-spans-0-0-2-package tar:///Users/thomas/.npm/moment-spans/0.0.2/package
+66 silly lockFile 9d9aaafc-m-moment-spans-0-0-2-package-tgz tar:///Users/thomas/.npm/moment-spans/0.0.2/package.tgz
+67 silly lockFile 9d9aaafc-m-moment-spans-0-0-2-package-tgz tar:///Users/thomas/.npm/moment-spans/0.0.2/package.tgz
+68 verbose chmod /Users/thomas/.npm/moment-spans/0.0.2/package.tgz 644
+69 verbose chown /Users/thomas/.npm/moment-spans/0.0.2/package.tgz [ 501, 20 ]
+70 silly lockFile 3a52ce78- .
+71 silly lockFile 3a52ce78- .
+72 silly publish { name: 'moment-spans',
+72 silly publish   version: '0.0.2',
+72 silly publish   description: 'A span is a period between two dates where subsciptions take place. The subscribers between these dates are labeled within a specific span number. The initial span number starts on the month that subscriptions started. A subscriber can only be in one span.',
+72 silly publish   main: 'index.js',
+72 silly publish   author: { name: 'Thomas Reggi' },
+72 silly publish   license: 'ISC',
+72 silly publish   dependencies: { moment: '^2.6.0', underscore: '^1.6.0' },
+72 silly publish   devDependencies: { dotty: '0.0.2', minimist: '^0.1.0' },
+72 silly publish   scripts: { test: 'node ./bin.js' },
+72 silly publish   repository:
+72 silly publish    { type: 'git',
+72 silly publish      url: 'https://github.com/reggi/moment-spans.git' },
+72 silly publish   keywords: [ 'moment' ],
+72 silly publish   bugs: { url: 'https://github.com/reggi/moment-spans/issues' },
+72 silly publish   homepage: 'https://github.com/reggi/moment-spans',
+72 silly publish   readme: '# Moment Spans\n\n```\nnpm install moment-spans --save\n```\n\nA span is a period between two dates where subsciptions take place. The subscribers between these dates are labeled within a specific span number. The initial span number starts on the month that subscriptions started. A subscriber can only be in one span.\n\n## Arguments\n\n* start date\n* monthly interval\n* date\n\n## Example\n\n* april 1st - april 14th span 1\n* april 15th - may 14th span 2\n* may 15th - june 14th span 3\n\n## Example Arguments\n\n* 2014-04-01\n* 15\n* 2014-05-16\n* output: 3',
+72 silly publish   readmeFilename: 'readme.md',
+72 silly publish   _id: 'moment-spans@0.0.2',
+72 silly publish   dist: { shasum: 'c451da7652d1d760ed2312bd4d9dd4b03be0d856' },
+72 silly publish   _from: '.' }
+73 verbose url raw moment-spans
+74 verbose url resolving [ 'http://registry.npmjs.org/', './moment-spans' ]
+75 verbose url resolved http://registry.npmjs.org/moment-spans
+76 info trying registry request attempt 1 at 15:17:23
+77 http PUT http://registry.npmjs.org/moment-spans
+78 http 403 http://registry.npmjs.org/moment-spans
+79 error publish Failed PUT 403
+80 error Error: forbidden cannot modify pre-existing version: 0.0.2
+80 error old={"name":"moment-spans","version":"0.0.2","description":"A span is a period between two dates where subsciptions take place. The subscribers between these dates are labeled within a specific span number. The initial span number starts on the month that subscriptions started. A subscriber can only be in one span","main":"index.js","author":{"name":"Thomas Reggi"},"license":"ISC","dependencies":{"moment":"^2.6.0","underscore":"^1.6.0"},"devDependencies":{"dotty":"0.0.2","minimist":"^0.1.0"},"scripts":{"test":"node ./bin.js"},"repository":{"type":"git","url":"https://github.com/reggi/moment-spans.git"},"keywords":["moment"],"bugs":{"url":"https://github.com/reggi/moment-spans/issues"},"homepage":"https://github.com/reggi/moment-spans","_id":"moment-spans@0.0.2","dist":{"shasum":"67b0e7e9156e3c07db0529711c05e24aa996bbea","tarball":"http://registry.npmjs.org/moment-spans/-/moment-spans-0.0.2.tgz"},"_from":".","_npmVersion":"1.4.6","_npmUser":{"name":"reggi","email":"thomas@reggi.com"},"maintainers":[{"name":"reggi","email":"thomas@reggi.com"}]}
+80 error new={"name":"moment-spans","version":"0.0.2","description":"A span is a period between two dates where subsciptions take place. The subscribers between these dates are labeled within a specific span number. The initial span number starts on the month that subscriptions started. A subscriber can only be in one span.","main":"index.js","author":{"name":"Thomas Reggi"},"license":"ISC","dependencies":{"moment":"^2.6.0","underscore":"^1.6.0"},"devDependencies":{"dotty":"0.0.2","minimist":"^0.1.0"},"scripts":{"test":"node ./bin.js"},"repository":{"type":"git","url":"https://github.com/reggi/moment-spans.git"},"keywords":["moment"],"bugs":{"url":"https://github.com/reggi/moment-spans/issues"},"homepage":"https://github.com/reggi/moment-spans","readme":"# Moment Spans\u000a\u000a```\u000anpm install moment-spans --save\u000a```\u000a\u000aA span is a period between two dates where subsciptions take place. The subscribers between these dates are labeled within a specific span number. The initial span number starts on the month that subscriptions started. A subscriber can only be in one span.\u000a\u000a## Arguments\u000a\u000a* start date\u000a* monthly interval\u000a* date\u000a\u000a## Example\u000a\u000a* april 1st - april 14th span 1\u000a* april 15th - may 14th span 2\u000a* may 15th - june 14th span 3\u000a\u000a## Example Arguments\u000a\u000a* 2014-04-01\u000a* 15\u000a* 2014-05-16\u000a* output: 3","readmeFilename":"readme.md","_id":"moment-spans@0.0.2","dist":{"shasum":"c451da7652d1d760ed2312bd4d9dd4b03be0d856","tarball":"http://registry.npmjs.org/moment-spans/-/moment-spans-0.0.2.tgz"},"_from":".","_npmVersion":"1.4.6","_npmUser":{"name":"reggi","email":"thomas@reggi.com"},"maintainers":[{"name":"reggi","email":"thomas@reggi.com"}]}: moment-spans
+80 error     at RegClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:254:14)
+80 error     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:192:65)
+80 error     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:123:22)
+80 error     at Request.EventEmitter.emit (events.js:107:17)
+80 error     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:893:14)
+80 error     at Request.EventEmitter.emit (events.js:126:20)
+80 error     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:844:12)
+80 error     at IncomingMessage.EventEmitter.emit (events.js:126:20)
+80 error     at _stream_readable.js:895:16
+80 error     at process._tickCallback (node.js:339:11)
+81 error If you need help, you may report this *entire* log,
+81 error including the npm and node versions, at:
+81 error     <http://github.com/npm/npm/issues>
+82 error System Darwin 13.1.0
+83 error command "node" "/usr/local/bin/npm" "publish" "--force"
+84 error cwd /Users/thomas/Desktop/github/moment-spans
+85 error node -v v0.11.12
+86 error npm -v 1.4.6
+87 verbose exit [ 1, true ]
