@@ -56,7 +56,6 @@ module.exports = function(start_date, monthly_interval, question_date) {
   start_date = _start_date(start_date);
   //if (question_date.diff(start_date) < 0) return new Error("The date provided is before the subscription start date, no batch number.");
   var date_spans = _date_spans(start_date, monthly_interval, question_date);
-  console.log(_format_spans(date_spans));
   var _span = 0;
   _.each(date_spans, function(date_span, span) {
     var isBetween = is_between(date_span, question_date);
